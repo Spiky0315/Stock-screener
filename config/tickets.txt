@@ -1,9 +1,0 @@
-# One ticker per line. Lines starting with # are ignored.
-# Add or remove tickers here -- no need to touch screener.py.
-AAPL
-MSFT
-GOOGL
-AMZN
-NVDA
-META
-TSLA
