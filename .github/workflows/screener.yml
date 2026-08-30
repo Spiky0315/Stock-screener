@@ -31,7 +31,7 @@ jobs:
           SMTP_PORT: 587
           SMTP_USERNAME: ${{ secrets.SMTP_USERNAME }}
           SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
-          EMAIL_TO: ${{ secrets.EMAIL_TO }}
+          EMAIL_TO: ${{ secrets.EMAIL_ADDRESS }}
           SMS_TO: ${{ secrets.SMS_TO }}
         run: python screener.py
 
